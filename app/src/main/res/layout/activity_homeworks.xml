@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calchw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeworkActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hw1"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:text="@string/homework_1"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/hw1grade"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hw2"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:text="@string/homework_2"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/hw2grade"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hw3"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:text="@string/homework_3"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/hw3grade"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hw4"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:text="@string/homework_4"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/hw4grade"
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hw5"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:text="@string/homework_5"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/hw5grade"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/grade"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/back_to_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back_to_main" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

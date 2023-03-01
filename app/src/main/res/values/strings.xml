@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Grade Calculator</string>
+    <string name="homework_1">Homework 1</string>
+    <string name="homework_2">Homework 2</string>
+    <string name="homework_3">Homework 3</string>
+    <string name="homework_4">Homework 4</string>
+    <string name="homework_5">Homework 5</string>
+    <string name="grade">Grade 0–100</string>
+    <string name="back_to_main">Back To Main Page</string>
+    <string name="midterm_1">Midterm 1</string>
+    <string name="midterm_2">Midterm 2</string>
+    <string name="group_presentation">Group Presentation</string>
+    <string name="homeworks">Homeworks</string>
+    <string name="final_project">Final Project</string>
+    <string name="calculate_grade">Calculate Grade</string>
+    <string name="total_grade">Total Grade</string>
+    <string name="homework_average">Homework Average</string>
+    <string name="participation_and_attendance">Participation and Attendance</string>
+    <string name="reset">Reset</string>
+</resources>
